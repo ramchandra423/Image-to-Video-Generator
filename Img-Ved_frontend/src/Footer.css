@@ -1,0 +1,12 @@
+.footer {
+    background-color: #474646;
+    padding: 20px;
+    text-align: center;
+    bottom: 0px;
+    color: aliceblue;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
