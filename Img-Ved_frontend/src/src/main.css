@@ -1,0 +1,98 @@
+.main-container {
+    background-color: rgb(253, 253, 253);
+    padding-bottom: 30px;
+    height: fit-content;
+}
+
+.caption-box {
+    width: 100%;
+    /* min-height: 50vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+textarea {
+    margin-top: 20px;
+    width: 500px;
+    height: 100px;
+    background-color: rgb(219, 226, 224);
+    font-size: larger;
+    color: brown;
+    padding: 20px;
+    border-radius: 10px;
+    resize: none;
+    margin-bottom: 30px;
+}
+
+.img-con {
+    height: fit-content;
+
+}
+
+.chosen-img img {
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    object-fit: contain;
+}
+
+input[type=file]::file-selector-button {
+    margin-right: 20px;
+    border: none;
+    background: #084cdf;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+}
+
+input[type=file]::file-selector-button:hover {
+    background: #0d45a5;
+}
+
+
+.demo-img img {
+    margin-top: 20px;
+    width: 50%;
+    height: fit-content;
+    /* border: 1px solid; */
+    box-shadow:
+        inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+        0 0 0 2px rgb(159, 159, 159),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.bar {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    /* width: 150px; */
+    border-radius: 12px;
+    cursor: pointer;
+    height: 50px;
+    margin-top: 20px;
+    background-color: rgb(216, 129, 71);
+    font-size: larger;
+}
+
+.details {
+    display: flex;
+    /* border: 1px solid; */
+    justify-content: space-around;
+
+}
+
+.deta {
+    width: 30%;
+}
+
+hr {
+    color: #0d45a5;
+    font-size: larger;
+}
